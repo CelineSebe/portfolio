@@ -1,7 +1,10 @@
-html, body{
+*{
     box-sizing: border-box;
+}
+
+html, body{
     margin: 0;
-    width: auto;
+    width: 100%;
 }
 
 #container{
@@ -9,7 +12,6 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .card{
@@ -17,7 +19,37 @@ html, body{
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    width: 400px;
+    width: 80%; 
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.hover{
+    display:none;
+}
+.card:hover .title{
+    display: none;
+}
+.card:hover .hover{
+    display: flex;
+    flex-direction: column;
+}
+.enseignement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enseignement-text{
+    display: flex;
+    flex-direction: column;
+}
+.enseignement img{
+    height: 100px;
 }
 
 footer{
