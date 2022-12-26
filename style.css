@@ -26,7 +26,6 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .card{
@@ -43,6 +42,7 @@ html, body{
     background: linear-gradient(-45deg, #ee7752, #a1880daa, #2385d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
+    
 }
 
 @keyframes gradient {
@@ -56,6 +56,9 @@ html, body{
 		background-position: 0% 50%;
 	}
 }
+
+    
+
 
 .title{
     display: flex;
@@ -86,7 +89,11 @@ html, body{
 
 .text-profil{
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .localisation-profil{
@@ -100,7 +107,8 @@ html, body{
 }
 
 .linkedin, .gitlab, .github{
-    width: 50px;
+    width: 40px;
+    margin: 30px;
 }
 
 
@@ -111,8 +119,13 @@ html, body{
     font-size: medium;
     line-height: 20px;
 }
+
+.git-logo{
+    margin: 30px;
+}
 .card:hover .title{
     display: none;
+    transition: 1s;
     
 }
 .card:hover .hover{
@@ -120,10 +133,14 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
     cursor: pointer;
     border-radius: 15px;
     background-color: rgb(198, 180, 100);
-    animation: rotate 3sec;
+    padding: 10px;
+    line-height: 25px;
+    
 }
 
 .card ul{
@@ -136,9 +153,15 @@ html, body{
     margin: 4px;
     border-radius: 5px;
     padding: 2px;
-    width: 200px;
+    width: 150px;
     text-align: center;
 }
+
+@media screen and(max-width: 400px) {
+}
+
+
+
 .card ul li:hover{
     opacity: 0.7;
 }
@@ -155,12 +178,56 @@ html, body{
     align-items: stretch;
 }
 
+.card-Booki, .card-ohmyfood, .card-panthere, .card-kanap, .card-piquante, .card-groupomania, .card-yesno, .card-spectre, .rollerderbyrules{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    opacity: 0.9;
+    border-radius: 30px;
+    border: 2px solid rgb(232, 222, 222);
+    background-color:#deebff;
+    width: 400px;
+
+}
+.visuel-booki, .visuel-myfood{
+    display: none;
+}
+
+.hover-proj h2{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.card-Booki:hover .visuel-booki{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-Booki:hover h2, .card-ohmyfood:hover h2{
+    display: none;
+}
+.card-ohmyfood:hover .visuel-myfood{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-ohmyfood:hover h2{
+    display: none;
+}
 .expe-column{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-size: 14px;
     padding: 20px;
+}
+
+.BYG, .Loqualis, .enseignement{
+    margin: 15px;
 }
 
 .Loqualis{
