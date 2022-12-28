@@ -218,12 +218,83 @@ html, body{
 .card-ohmyfood:hover h2{
     display: none;
 }
+
+.card-panthere:hover .visuel-panthere{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-panthere:hover h2{
+    display: none;
+}
+
+.card-kanap:hover .visuel-kanap{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-kanap:hover h2{
+    display: none;
+}
+
 .expe-column{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-size: 14px;
     padding: 20px;
+}
+
+.card-piquante:hover .visuel-piquante{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-piquante:hover h2{
+    display: none;
+}
+
+.card-groupomania:hover .visuel-groupomania{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-groupomania:hover h2{
+    display: none;
+}
+
+.card-yesno:hover .visuel-yesno{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-yesno:hover h2{
+    display: none;
+}
+
+.card-spectre:hover .visuel-spectre{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-spectre:hover h2{
+    display: none;
+}
+
+.rollerderbyrules:hover .visuel-rollerderby{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-rollerderby:hover h2{
+    display: none;
 }
 
 .BYG, .Loqualis, .enseignement{
