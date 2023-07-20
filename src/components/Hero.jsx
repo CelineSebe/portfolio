@@ -19,7 +19,7 @@ const Hero = () => {
                         <i className="fa-brands fa-twitter"></i>
                     </a>
                     <a
-                        href="https://github.com/celinesebe"
+                        href="www.github.com/celinesebe"
                         aria-label="GitHub"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const Hero = () => {
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/celinesebe/"
+                        href="www.linkedin.com/in/celine-sebe"
                         aria-label="LinkedIn"
                         target="_blank"
                         rel="noopener noreferrer"
