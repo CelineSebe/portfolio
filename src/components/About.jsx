@@ -7,8 +7,8 @@ const About = () => {
             <div className="flex-about">
                 <div className="about-text">
                     <p>
-                        En tant que développeuse, je suis passionnée par la création de sites sobres, accessibles et efficaces à partir de projets plus complexes.
-                        J'ai reçu une solide formation en développement FullStack, tel que HTML, CSS, Javascript et Python, et je me concentre en ce moment, sur les technologies ReactJs et NodeJs.
+                        En tant que développeuse, je suis passionnée par la création de sites sobres, accessibles et efficaces à partir de projets ou d'idées complexes.
+                        J'ai reçu une solide formation de développement FullStack sur les bases de programmation, tel que HTML, CSS, Javascript et Python, et je me concentre en ce moment, sur les technologies ReactJs et NodeJs.
                         J'aime travailler à la fois sur les aspects front-end et back-end, et je recherche des solutions pour améliorer l'expérience utilisateur tout en maintenant un code de qualité.
 
                     </p>
