@@ -15,7 +15,7 @@ const About = () => {
                     <p>J'ai été initié durant ma formation à utiliser différents outils, par exemple React, Angular, Vue.js, Node.js, and Django. Je suis en train de chercher des opportunités pour continuer à améliorer mes compétences.</p>
                 </div>
                 <div className="about-img">
-                    <Image src='/images/about.jpeg' className="profile-img" width={300} height={500} alt="Joe and animal relaxing and having fun" />
+                    <Image src='/images/about.jpeg' className="profile-img" width={300} height={500} alt="Celine and animal relaxing and having fun" />
                 </div>
             </div>
         </div>
