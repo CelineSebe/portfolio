@@ -38,7 +38,7 @@ const Navbar = ()=>{
                 })
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                href: "",
+                href: "images/CV_210723.png",
                 className: "cta-btn",
                 children: "CV"
             })
