@@ -76,7 +76,7 @@ const Footer = ()=>{
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "https://github.com/celinesebe",
+                                href: "https://github.com/CelineSebe",
                                 "aria-label": "GitHub",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
@@ -85,7 +85,7 @@ const Footer = ()=>{
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "https://www.linkedin.com/in/CelineSebe/",
+                                href: "https://www.linkedin.com/in/celine-sebe/",
                                 "aria-label": "LinkedIn",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
