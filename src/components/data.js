@@ -4,7 +4,7 @@ export const projectData = [
 		title: 'Booki',
 		description:
 			'',
-		gitHubLink: 'https://celinesebe.github.io/Booki/'
+		gitHubLink: 'https://celinesebe.github.io/booki/'
 	},
 	{
 		id: 2,
