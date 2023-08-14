@@ -8,7 +8,7 @@ const Navbar = () => {
                      Portfolio de Céline
                 </Link>
             </div>
-            <a href="images/CV_210723.png" className="cta-btn">CV</a>
+            <a href="images/CV_SEBE_90823.png" className="cta-btn">CV</a>
         </div>
     )
 }
